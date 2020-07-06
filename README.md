@@ -9,9 +9,12 @@
 
 - There is a problem with my CSV file (data.csv).
 - Fields in the file are: `model`, `location`, `year`, `VIN`, `make`
-- 'Cayman' `model`s 2007 and greater need their `VIN` changed.  Replace all U with an S in the `VIN`.
-  In addition, the `location` needs to change from 'Chicago' to 'St. Louis', but only if the `VIN` ends with 00001.
-- Print to the screen only changed lines.
+- 'Cayman' `model`s 2007 and greater need their `VIN` changed.  
+
+1. Replace all U with an S in the `VIN`.
+2. The `location` needs to change from 'Chicago' to 'St. Louis', but only if the `VIN` ends with 00001.
+3. Print to the screen only changed lines.
+
 
 #### Step 2
 
